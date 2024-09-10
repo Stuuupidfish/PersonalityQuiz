@@ -7,10 +7,8 @@ def q1():
     ques = input("Question 1: Do you hate people? A: yes  B: no \n")
     if ques.lower() == "a":
         cat+=1
-        return
-    if ques.lower() == "b":
+    elif ques.lower() == "b":
         rat+=1
-        return
     else:
         print("answer with A or B.")
         return q1()
@@ -20,10 +18,8 @@ def q2():
     ques = input("Question 2: Pizza or steak? A: pizza  B: steak \n")
     if ques.lower() == "a":
         rat+=1
-        return
-    if ques.lower() == "b":
+    elif ques.lower() == "b":
         cat+=1
-        return
     else:
         print("answer with A or B.")
         return q2()
@@ -33,10 +29,8 @@ def q3():
     ques = input("Question 3: Is hamster so cool? A: yeah  B: yeah \n")
     if ques.lower() == "a":
         rat+=1
-        return
-    if ques.lower() == "b":
+    elif ques.lower() == "b":
         rat+=1
-        return
     else:
         print("answer with A or B.")
         return q3()
